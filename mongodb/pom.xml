@@ -8,24 +8,12 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>rabbitmq</artifactId>
-    <packaging>pom</packaging>
 
-    <modules>
-        <module>native</module>
-    </modules>
+    <artifactId>mongodb</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>com.rabbitmq</groupId>
-            <artifactId>amqp-client</artifactId>
-            <version>5.11.0</version>
-        </dependency>
-    </dependencies>
 
 </project>
